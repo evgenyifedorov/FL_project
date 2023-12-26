@@ -1,4 +1,12 @@
 def get_upper(text):
-    """Выводит текст в верхнем регистре"""
+    """ выводит текст в верхнем регистре"""
 
     return text.upper()
+
+def get_ltitle(text):
+    """Выводит заглавной начальную букву"""
+
+    return text.title()
+
+
+
